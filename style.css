@@ -1,0 +1,131 @@
+body{
+ margin: 0;
+ text-align: center;
+}
+.hero{
+    background-color: #85A98F;
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    background-image: url(./assets/Background.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: Oswald;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.sub-heading{
+    text-align: center;
+    font-family: Oswald;
+    color: white;
+    margin-bottom: 100px;
+}
+.Flex-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Page{
+    border: 5px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    flex: 1;
+    font-family: Oswald;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.Professional{
+    color: #F5F0CD;
+}
+.tagline{
+    font-family: Oswald;
+}
+.Code{
+    color: #1F509A;
+}
+.image{
+    width: 400px;
+    height: 250px;
+}
+.image-1{
+    width: 400px;
+    height: 200px;
+}
+.middle-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+}
+.skill-heading{
+    font-family: Oswald;
+    color: #1F509A;
+    margin-bottom: 10px;
+}
+.skills-heading-main{
+    color: #1F509A;
+    font-family: Oswald;
+    margin-top: 50px;
+    margin-bottom: 0px;
+   
+}
+hr{
+    border: dotted #F5F0CD 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+.Contact{
+    color: #1F509A;
+    font-family: Oswald;
+    margin-top: 100px;
+}
+button{
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    border-radius: 80px;
+    color: #1F509A;
+    border: solid #1F509A 3px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: #1F509A;
+    color: white;
+}
+.bottom-container{
+    background-color: #1F509A;
+    color: #D4EBF8;
+    padding: 50px 0 20px 0;
+
+}
+.Link{
+    padding: 30px;
+    color: #D4EBF8;
+    text-decoration: none;
+}
+footer{
+    margin-top: 40px;
+}
+
+@media (min-width: 300px) and (max-width: 1400px){
+.hero{
+    background-image: url(./assets/Media\ Background.jpg);
+}
+}
